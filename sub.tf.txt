@@ -1,0 +1,8 @@
+resource "aws_subnet" "public-subnet" {
+cidr_block = "10.0.1.0/24"
+vpc_id = "vpc-0f9b5809a17f64e6a"
+  # ...subnet configuration...
+}
+
+
+####  terraform import aws_subnet.subnet_name vpc_id   ####
